@@ -51,7 +51,6 @@ def create(feature,option):
 ##
 
 app = Flask(__name__)
-app.vars = {}
 
 @app.route('/', methods=['GET','POST'])
 def select():
