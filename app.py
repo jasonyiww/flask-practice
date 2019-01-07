@@ -55,7 +55,7 @@ app = Flask(__name__)
 @app.route('/', methods=['GET','POST'])
 def select():
     if request.method == 'GET':
-        return render_template('select_page.html')
+        return render_template('index.html')
     else:
         return redirect('/plot')
 
